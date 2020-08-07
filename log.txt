@@ -1,0 +1,430 @@
+
+D:\5.12.9\qt-everywhere-src-5.12.9>configure -platform win32-g++ -developer-build  -opengl desktop -nomake tests -skip webengine
++ cd qtbase
++ D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\configure.bat -top-level -platform win32-g++ -developer-build  -opengl desktop -nomake tests -skip webengine
+Bootstrapping qmake ...
+mingw32-make: Nothing to be done for 'first'.
+
+Selecting Qt Edition.
+
+Type 'c' if you want to use the Commercial Edition.
+Type 'o' if you want to use the Open Source Edition.
+
+Which edition of Qt do you want to use? o
+
+This is the Qt Open Source Edition.
+
+You are licensed to use this software under the terms of
+the GNU Lesser General Public License (LGPL) version 3
+or the GNU General Public License (GPL) version 2.
+
+Type 'L' to view the GNU Lesser General Public License version 3 (LGPLv3).
+Type 'G' to view the GNU General Public License version 2 (GPLv2).
+Type 'y' to accept this license offer.
+Type 'n' to decline this license offer.
+
+Do you accept the terms of either license? y
+
+
+Running configuration tests...
+Checking for valid makespec... yes
+Checking for target architecture... i386
+Checking for SSE2 instructions... yes
+Checking for AES new instructions... yes
+Checking for alloca() in alloca.h... no
+Checking for alloca() in malloc.h... yes
+Checking for SSE3 instructions... yes
+Checking for SSSE3 instructions... yes
+Checking for SSE4.1 instructions... yes
+Checking for SSE4.2 instructions... yes
+Checking for AVX instructions... yes
+Checking for AVX2 instructions... yes
+Checking for AVX512 F instructions... yes
+Checking for AVX512 BW instructions... yes
+Checking for AVX512 CD instructions... yes
+Checking for AVX512 DQ instructions... yes
+Checking for AVX512 ER instructions... yes
+Checking for AVX512 IFMA instructions... yes
+Checking for AVX512 PF instructions... yes
+Checking for AVX512 VBMI instructions... yes
+Checking for AVX512 VL instructions... yes
+Checking for C++14 support... yes
+Checking for C++1z support... yes
+Checking for C99 support... yes
+Checking for C11 support... yes
+Checking for D-Bus >= 1.2... no
+Checking for gdb index support... no
+Checking for F16C instructions... yes
+Checking for D-Bus >= 1.2 (host)... yes
+Checking for IncrediBuild... no
+Checking for udev... no
+Checking for POSIX fallocate()... no
+Checking for precompiled header support... yes
+Checking for RDRAND instruction... yes
+Checking for SHA new instructions... yes
+Checking for STL compatibility... yes
+Checking for zlib... yes
+Checking for Intrinsics without -mXXX argument... yes
+Checking for C++11 <future>... yes
+Checking for eventfd... no
+Checking for inotify... no
+Checking for slog2... no
+Checking for 64 bit atomics... yes
+Checking for DoubleConversion... no
+Checking for PCRE2... no
+Checking for O_CLOEXEC... no
+Checking for C++11 <random>... yes
+Checking for working std::atomic for function pointers... yes
+Checking for OpenSSL Headers... no
+Checking for getifaddrs()... no
+Checking for IPv6 ifname... no
+Checking for xkbcommon >= 0.5.0... no
+Checking for DirectX GI... yes
+Checking for Direct3D 11... yes
+Checking for Direct2D 1... yes
+Checking for Direct2D 1.1... yes
+Checking for DirectX GI 1.2... yes
+Checking for Direct3D 11.1... yes
+Checking for Direct3D 9... yes
+Checking for DirectWrite... yes
+Checking for DirectWrite 1... yes
+Checking for DirectWrite 2... yes
+Checking for KMS... no
+Checking for DirectX GUID... yes
+Checking for Desktop OpenGL... yes
+Checking for EGL... no
+Checking for evdev... no
+Checking for FreeType... no
+Checking for GBM... no
+Checking for LinuxFB... no
+Checking for mtdev... no
+Checking for OpenVG... no
+Checking for default QPA platform... windows
+Checking for libjpeg... no
+Checking for libpng... no
+Checking for tslib... no
+Checking for Vulkan... no
+Checking for XLib... no
+Checking for uxtheme.h... yes
+Checking for CUPS... no
+Checking for DB2 (IBM)... no
+Checking for InterBase... no
+Checking for MySQL... no
+Checking for OCI (Oracle)... no
+Checking for ODBC... yes
+Checking for PostgreSQL... no
+Checking for SQLite (version 2)... no
+Checking for TDS (Sybase)... no
+Checking for jasper... no
+Checking for mng... no
+Checking for tiff... no
+Checking for webp... no
+Checking for Direct3D 12... no
+Checking for SDL2... no
+Checking for Assimp... no
+Checking for Autodesk FBX... no
+Checking for Wayland EGL library... no
+Checking for BlueZ... no
+Checking for WinRT Bluetooth API... no
+Checking for sensorfw... no
+Checking for Gypsy... no
+Checking for WinRT Geolocation API... no
+Checking for DirectShow... yes
+Checking for evr.h... yes
+Checking for GStreamer 1.0... no
+Checking for GStreamer 0.10... no
+Checking for OpenAL... no
+Checking for libresourceqt5... no
+Checking for Windows Audio Services... no
+Checking for WMF... no
+Checking for wmsdk.h... no
+Checking for WShellItem... yes
+Checking for libclang... no
+Done running configuration tests.
+
+Configure summary:
+
+Build type: win32-g++ (i386, CPU features: <none>)
+Compiler: gcc 8.1.0
+Configuration: sse2 aesni sse3 ssse3 sse4_1 sse4_2 avx avx2 avx512f avx512bw avx512cd avx512dq avx512er avx512ifma avx512pf avx512vbmi avx512vl compile_examples f16c headersclean largefile precompile_header rdrnd shani warnings_are_errors x86SimdAlways private_tests shared debug_and_release release debug build_all c++11 c++14 c++1z concurrent dbus no-pkg-config release_tools stl
+Build options:
+  Mode ................................... debug and release; default link: debug; optimized tools
+  Optimize debug build ................... no
+  Optimize release build for size ........ no
+  Building shared libraries .............. yes
+  Using C standard ....................... C11
+  Using C++ standard ..................... C++1z
+  Using gold linker ...................... no
+  Generating GDB index ................... no
+  Using precompiled headers .............. yes
+  Using LTCG ............................. no
+  Target compiler supports:
+    SSE .................................. SSE2 SSE3 SSSE3 SSE4.1 SSE4.2
+    AVX .................................. AVX AVX2
+    AVX512 ............................... F ER CD PF DQ BW VL IFMA VBMI
+    Other x86 ............................ AES F16C RDRAND SHA
+    Intrinsics without -mXXX option ...... yes
+  Build parts ............................ libs examples tools
+  App store compliance ................... no
+Qt modules and options:
+  Qt Concurrent .......................... yes
+  Qt D-Bus ............................... yes
+  Qt D-Bus directly linked to libdbus .... no
+  Qt Gui ................................. yes
+  Qt Network ............................. yes
+  Qt Sql ................................. yes
+  Qt Testlib ............................. yes
+  Qt Widgets ............................. yes
+  Qt Xml ................................. yes
+Support enabled for:
+  Using pkg-config ....................... no
+  udev ................................... no
+  Using system zlib ...................... yes
+Qt Core:
+  DoubleConversion ....................... yes
+    Using system DoubleConversion ........ no
+  GLib ................................... no
+  iconv .................................. no
+  ICU .................................... no
+  Tracing backend ........................ <none>
+  Logging backends:
+    journald ............................. no
+    syslog ............................... no
+    slog2 ................................ no
+  Using system PCRE2 ..................... no
+Qt Network:
+  getifaddrs() ........................... no
+  IPv6 ifname ............................ no
+  libproxy ............................... no
+  OpenSSL ................................ no
+    Qt directly linked to OpenSSL ........ no
+  OpenSSL 1.1 ............................ no
+  DTLS ................................... no
+  SCTP ................................... no
+  Use system proxies ..................... yes
+Qt Gui:
+  Accessibility .......................... yes
+  FreeType ............................... yes
+    Using system FreeType ................ no
+  HarfBuzz ............................... yes
+    Using system HarfBuzz ................ no
+  Fontconfig ............................. no
+  Image formats:
+    GIF .................................. yes
+    ICO .................................. yes
+    JPEG ................................. yes
+      Using system libjpeg ............... no
+    PNG .................................. yes
+      Using system libpng ................ no
+  EGL .................................... no
+  OpenVG ................................. no
+  OpenGL:
+    ANGLE ................................ no
+    Desktop OpenGL ....................... yes
+    Dynamic OpenGL ....................... no
+    OpenGL ES 2.0 ........................ no
+    OpenGL ES 3.0 ........................ no
+    OpenGL ES 3.1 ........................ no
+    OpenGL ES 3.2 ........................ no
+  Vulkan ................................. no
+  Session Management ..................... yes
+Features used by QPA backends:
+  evdev .................................. no
+  libinput ............................... no
+  INTEGRITY HID .......................... no
+  mtdev .................................. no
+  tslib .................................. no
+  xkbcommon .............................. no
+  X11 specific:
+    XLib ................................. no
+    XCB Xlib ............................. no
+    EGL on X11 ........................... no
+QPA backends:
+  DirectFB ............................... no
+  EGLFS .................................. no
+  LinuxFB ................................ no
+  VNC .................................... no
+  Mir client ............................. no
+  Windows:
+    Direct 2D ............................ yes
+    DirectWrite .......................... yes
+    DirectWrite 2 ........................ yes
+Qt Sql:
+  SQL item models ........................ yes
+Qt Widgets:
+  GTK+ ................................... no
+  Styles ................................. Fusion Windows WindowsVista
+Qt PrintSupport:
+  CUPS ................................... no
+Qt Sql Drivers:
+  DB2 (IBM) .............................. no
+  InterBase .............................. no
+  MySql .................................. no
+  OCI (Oracle) ........................... no
+  ODBC ................................... yes
+  PostgreSQL ............................. no
+  SQLite2 ................................ no
+  SQLite ................................. yes
+    Using system provided SQLite ......... no
+  TDS (Sybase) ........................... no
+Qt Testlib:
+  Tester for item models ................. yes
+Qt SerialBus:
+  Socket CAN ............................. no
+  Socket CAN FD .......................... no
+Further Image Formats:
+  JasPer ................................. no
+  MNG .................................... no
+  TIFF ................................... yes
+    Using system libtiff ................. no
+  WEBP ................................... yes
+    Using system libwebp ................. no
+Qt QML:
+  QML network support .................... yes
+  QML debugging and profiling support .... yes
+  QML sequence object .................... yes
+  QML list model ......................... yes
+  QML XML http request ................... yes
+  QML Locale ............................. yes
+  QML delegate model ..................... yes
+Qt Quick:
+  Direct3D 12 ............................ no
+  AnimatedImage item ..................... yes
+  Canvas item ............................ yes
+  Support for Qt Quick Designer .......... yes
+  Flipable item .......................... yes
+  GridView item .......................... yes
+  ListView item .......................... yes
+  TableView item ......................... yes
+  Path support ........................... yes
+  PathView item .......................... yes
+  Positioner items ....................... yes
+  Repeater item .......................... yes
+  ShaderEffect item ...................... yes
+  Sprite item ............................ yes
+Qt Scxml:
+  ECMAScript data model for QtScxml ...... yes
+Qt Gamepad:
+  SDL2 ................................... no
+Qt 3D:
+  Assimp ................................. yes
+  System Assimp .......................... no
+  Output Qt3D Job traces ................. no
+  Output Qt3D GL traces .................. no
+  Use SSE2 instructions .................. no
+  Use AVX2 instructions .................. no
+  Aspects:
+    Render aspect ........................ yes
+    Input aspect ......................... yes
+    Logic aspect ......................... yes
+    Animation aspect ..................... yes
+    Extras aspect ........................ yes
+Qt 3D Renderers:
+  OpenGL Renderer ........................ yes
+Qt 3D GeometryLoaders:
+  Autodesk FBX ........................... no
+Qt Wayland Client ........................ no
+Qt Wayland Compositor .................... no
+Qt Bluetooth:
+  BlueZ .................................. no
+  BlueZ Low Energy ....................... no
+  Linux Crypto API ....................... no
+  WinRT Bluetooth API (desktop & UWP) .... no
+Qt Sensors:
+  sensorfw ............................... no
+Qt Quick Controls 2:
+  Styles ................................. Default Fusion Imagine Material Universal
+Qt Quick Templates 2:
+  Hover support .......................... yes
+  Multi-touch support .................... yes
+Qt Positioning:
+  Gypsy GPS Daemon ....................... no
+  WinRT Geolocation API .................. no
+Qt Location:
+  Qt.labs.location experimental QML plugin . yes
+  Geoservice plugins:
+    OpenStreetMap ........................ yes
+    HERE ................................. yes
+    Esri ................................. yes
+    Mapbox ............................... yes
+    MapboxGL ............................. yes
+    Itemsoverlay ......................... yes
+QtXmlPatterns:
+  XML schema support ..................... yes
+Qt Multimedia:
+  ALSA ................................... no
+  GStreamer 1.0 .......................... no
+  GStreamer 0.10 ......................... no
+  Video for Linux ........................ no
+  OpenAL ................................. no
+  PulseAudio ............................. no
+  Resource Policy (libresourceqt5) ....... no
+  Windows Audio Services ................. no
+  DirectShow ............................. yes
+  Windows Media Foundation ............... no
+  Media player backend ................... DirectShow
+Qt Tools:
+  QDoc ................................... no
+
+Note: No wayland-egl support detected. Cross-toolkit compatibility disabled.
+
+WARNING: QDoc will not be compiled, probably because libclang could not be located. This means that you cannot build the Qt documentation.
+
+Either ensure that llvm-config is in your PATH environment variable, or set LLVM_INSTALL_DIR to the location of your llvm installation.
+On Linux systems, you may be able to install libclang by installing the libclang-dev or libclang-devel package, depending on your distribution.
+On macOS, you can use Homebrew's llvm package.
+On Windows, you must set LLVM_INSTALL_DIR to the installation path.
+
+Qt is now configured for building. Just run 'mingw32-make'.
+Once everything is built, Qt is installed.
+You should NOT run 'mingw32-make install'.
+Note that this build cannot be deployed to other machines or devices.
+
+Prior to reconfiguration, make sure you remove any leftovers from
+the previous build.
+
+
+D:\5.12.9\qt-everywhere-src-5.12.9>mingw32-make -j4
+cd qtbase\ && ( if not exist Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\bin\qmake.exe -o Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\qtbase.pro ) && mingw32-make -f Makefile
+mingw32-make[1]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase'
+cd src\ && ( if not exist Makefile D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\src\src.pro ) && mingw32-make -f Makefile
+cd qmake\ && ( if not exist Makefile.qmake-aux D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile.qmake-aux D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\qmake\qmake-aux.pro ) && mingw32-make -f Makefile.qmake-aux
+cd doc\ && ( if not exist Makefile D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\doc\doc.pro ) && mingw32-make -f Makefile
+mingw32-make[2]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake'
+mingw32-make -f Makefile.qmake-aux.Release
+mingw32-make binary
+mingw32-make[2]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/doc'
+mingw32-make -f Makefile.Release
+mingw32-make[2]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/src'
+D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile src.pro
+mingw32-make[3]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake'
+g++ -c -o qlibraryinfo_final.o -DUNICODE -DMINGW_HAS_SECURE_API=1 -std=c++11 -ffunction-sections -g  -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake/library -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake/generators -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake/generators/unix -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake/generators/win32 -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake/generators/mac -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/include -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/include/QtCore -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/include/QtCore/5.12.9 -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/include/QtCore/5.12.9/QtCore -I../src/corelib/global -ID:/5.12.9/qt-everywhere-src-5.12.9/qtbase/mkspecs/win32-g++ -DQT_VERSION_STR=\"5.12.9\" -DQT_VERSION_MAJOR=5  -DQT_VERSION_MINOR=12  -DQT_VERSION_PATCH=9  -DQT_BUILD_QMAKE -DQT_BOOTSTRAPPED -DPROEVALUATOR_FULL -DQT_NO_FOREACH D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/src/corelib/global/qlibraryinfo.cpp
+mingw32-make[3]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/doc'
+mingw32-make[3]: Nothing to be done for 'first'.
+mingw32-make[3]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/doc'
+mingw32-make[2]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/doc'
+mingw32-make[3]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake'
+mingw32-make[3]: Nothing to be done for 'first'.
+mingw32-make[3]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake'
+cd tools\bootstrap\ && ( if not exist Makefile D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\src\tools\bootstrap\bootstrap.pro ) && mingw32-make -f Makefile
+cd 3rdparty\pcre2\ && ( if not exist Makefile D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\src\3rdparty\pcre2\pcre2.pro ) && mingw32-make -f Makefile
+cd 3rdparty\libpng\ && ( if not exist Makefile D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile D:\5.12.9\qt-everywhere-src-5.12.9\qtbase\src\3rdparty\libpng\libpng.pro ) && mingw32-make -f Makefile
+PPrroojjeecctt  EERRRROORR::  CCoouulldd  nnoott  ffiinndd  ffeeaattuurree  cc9999..
+
+mingw32-make[2]: *** [Makefile:499: sub-3rdparty-libpng-make_first] Error 3
+mingw32-make[2]: *** Waiting for unfinished jobs....
+mingw32-make[2]: *** [Makefile:169: sub-3rdparty-pcre2-make_first] Error 3
+g++ -o "../qmake/qmake.exe" main.o meta.o option.o project.o property.o ioutils.o proitems.o qmakebuiltins.o qmakeevaluator.o qmakeglobals.o qmakeparser.o qmakevfs.o pbuilder_pbx.o makefile.o makefiledeps.o metamakefile.o projectgenerator.o unixmake2.o unixmake.o mingw_make.o msbuild_objectmodel.o msvc_nmake.o msvc_objectmodel.o msvc_vcproj.o msvc_vcxproj.o winmakefile.o xmloutput.o qutfcodec.o qendian.o qglobal.o qlogging.o qmalloc.o qnumeric.o qoperatingsystemversion.o qrandom.o qabstractfileengine.o qbuffer.o qdatastream.o qdebug.o qdir.o qdiriterator.o qfile.o qfiledevice.o qfileinfo.o qfilesystemengine.o qfilesystementry.o qfsfileengine.o qfsfileengine_iterator.o qiodevice.o qsettings.o qtemporaryfile.o qtextstream.o qjsonarray.o qjson.o qjsondocument.o qjsonobject.o qjsonparser.o qjsonvalue.o qmetatype.o qsystemerror.o qvariant.o quuid.o qarraydata.o qbitarray.o qbytearray.o qbytearraylist.o qbytearraymatcher.o qcryptographichash.o qdatetime.o qhash.o qlinkedlist.o qlist.o qlocale.o qlocale_tools.o qmap.o qregexp.o qringbuffer.o qstringbuilder.o qstring_compat.o qstring.o qstringlist.o qversionnumber.o qvsnprintf.o qxmlstream.o qxmlutils.o qfilesystemengine_win.o qfilesystemiterator_win.o qfsfileengine_win.o qlocale_win.o qsettings_win.o qoperatingsystemversion_win.o qsystemlibrary.o registry.o  qlibraryinfo_final.o -static -s -lole32 -luuid -ladvapi32 -lkernel32 -lnetapi32 -Wl,--gc-sections
+mingw32-make[3]: Entering directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/src/tools/bootstrap'
+D:\Cute\5.11.1\mingw53_32\bin\qmake.exe -o Makefile bootstrap.pro
+Project ERROR: Could not find feature c99.
+mingw32-make[3]: *** [Makefile:246: Makefile] Error 3
+mingw32-make[3]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/src/tools/bootstrap'
+mingw32-make[2]: *** [Makefile:69: sub-bootstrap-make_first] Error 2
+mingw32-make[2]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/src'
+mingw32-make[1]: *** [Makefile:45: sub-src-make_first] Error 2
+mingw32-make[1]: *** Waiting for unfinished jobs....
+mingw32-make[3]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake'
+mingw32-make[2]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase/qmake'
+mingw32-make[1]: Leaving directory 'D:/5.12.9/qt-everywhere-src-5.12.9/qtbase'
+mingw32-make: *** [Makefile:81: module-qtbase-make_first] Error 2
